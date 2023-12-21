@@ -1,0 +1,16 @@
+.loginSignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.loginDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

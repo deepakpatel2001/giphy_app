@@ -1,0 +1,158 @@
+.parentContainer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(247, 231, 246);
+}
+
+.welcomeContainerHeading{
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+/* handling all the components */
+
+.searchContainer{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inputSearchGif{
+  border: none;
+  outline: none;
+  border: 2px solid rgb(135, 108, 216);
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 500px;
+}
+
+.searchBtn{
+  font-size: 20px;
+  border: 2px solid rgb(135, 108, 216);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+}
+
+/* Gif Container */
+
+.gifGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 10px;
+}
+
+.gifItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.gifItem img {
+  width: 70%; 
+  height: 250px; 
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.favoriteGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 10px;
+}
+
+.favoriteItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.favoriteItem img {
+  width: 70%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.favoriteHeading{
+  text-align: center;
+  font-size: 50px;
+}
+
+.favoriteBtn{
+  border: 2px solid green;
+  margin: 10px 0;
+  padding: 7px;
+  border-radius: 12px;
+  font-weight: 900;
+  font-family: cursive;
+  background-color: greenyellow;
+  transition: all .4s ease-in-out;
+}
+
+.favoriteBtn:hover{
+    background-color: white;
+    color: blueviolet;
+    border-color: black;
+}
+
+/* pagination */
+
+.paginationContainer{
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.paginationDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.previous{
+  background-color: skyblue;
+  padding: 12px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.adjustingSize{
+  margin-top: 12px;
+}
+
+.spanData{  
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.next{
+  background-color: skyblue;
+  padding: 12px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* logout */
+
+.logOutContainer{
+  margin-top: 30px;
+}
+
+.logBtn{
+  background-color: rgb(248, 106, 106);
+  border-radius: 10px;
+  padding: 10px;
+  color: blue;
+  font-size: 20px;
+}
